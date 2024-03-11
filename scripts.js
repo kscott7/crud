@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const list = document.querySelector("#myList");
   const form = document.querySelector("#myForm");
-  const dbURL = "db.json";
+  const dbURL = "https://kscott7.github.io/crud/db.json";
 
   function getList() {
     list.innerHTML = "";
