@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log(e.target);
     function addItem() {
       const input = document.querySelector("#myInput");
       fetch(`${dbURL}`, {
