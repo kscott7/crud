@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const list = document.querySelector("#myList");
   const form = document.querySelector("#myForm");
-  const dbURL = "http://localhost:3000/list";
+  const dbURL = "db.json";
 
   function getList() {
     list.innerHTML = "";
